@@ -11,7 +11,7 @@ streamlit.text('🍞 Avocado toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas
-my_fruit_list = my_fruit_list.set_index(fruit))
+my_fruit_list = my_fruit_list.set_index('fruit'))
 
 #lets put a pick list so they can pick the fruit they want to list
 streamlit.multiselect("Pick some fruits: " , List(my_fruit_list.index))
